@@ -1,0 +1,18 @@
+# Terraform
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+
+# AWS credentials and local config
+.claude/settings.local.json
+
+# MCP sensitive config
+.env
+
+# Logs
+.claude/deploy.log
+
+# OS files
+.DS_Store
+Thumbs.db
